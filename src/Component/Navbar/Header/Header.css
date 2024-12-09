@@ -1,0 +1,43 @@
+.header{
+    height: 34vw;
+    width: 100dvw;
+    margin: 30px auto;
+    background: url("/beer.png"  )  no-repeat;
+    background-size: contain;
+    position: relative;
+    background-color: rgb(235, 233, 228);
+}
+.header-contents{
+    position: absolute;
+    display: flex;
+    margin-left: 600px;
+    flex-direction: column;
+    align-items: start;
+    gap:1.5vw;
+    max-width: 50%;
+    bottom: 10%;
+    left:6vw;
+    color: rgb(119, 115, 115);
+    animation: fadeIn 3s;
+   
+}
+.header-contents h2{
+    font-weight: 500px;
+    color: rgb(149, 122, 104);
+    font-size:max(4.5vw,22px);
+
+}
+.header-contents p{
+    color: rgb(101, 88, 88);
+    font-size: 1vw;
+}
+.header-contents button{
+    border:none;
+    color: #f8f0f0;
+ font-weight: 500;
+ padding: 1vw 20vw;
+ background-color: rgb(192, 174, 174);
+ font-size: max(1.3vw,13px);
+ border-radius: 50px;
+ 
+}
